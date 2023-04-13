@@ -1,4 +1,9 @@
-
+#botao-inicial {
+    height: 30px;
+    display: inline-block;
+    margin: 7px 0px 0px 1160px;
+    border-radius: 10px;
+}
 
 #txtBusca {
     height: 35px;
@@ -15,4 +20,26 @@
 h3 {
     padding-right: 140px;
     text-align: center;
+}
+
+.lista {
+    height: 40px;
+    display: flex;
+    margin: 0px 370px 0px 100px;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align: center;
+}
+
+#pagina-inicial {
+    padding-right: 200px;
+   
+}
+
+#preco {
+    padding-right: 200px;
+}
+
+#contato {
+    padding-right: 200px;
 }
