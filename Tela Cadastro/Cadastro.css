@@ -1,17 +1,20 @@
 body {
     background-color:rgb(34, 34, 34);
+    width: 100%;
+    display: flex;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+    box-sizing: border-box;
 }
 
-.left-cadastro-image {
-    width: 35vw;
+.main-cadastro{
+ width: 50%;
+ height: 80vh;
 }
 
-.left-cadastro > h1 {
-    font-size: 3vw;
+#models{
     color: rgb(255, 120, 0);
 }
