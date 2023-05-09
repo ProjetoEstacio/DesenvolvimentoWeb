@@ -7,3 +7,11 @@ body {
     padding: 15px;
 }
 
+.left-cadastro-image {
+    width: 35vw;
+}
+
+.left-cadastro > h1 {
+    font-size: 3vw;
+    color: rgb(255, 120, 0);
+}

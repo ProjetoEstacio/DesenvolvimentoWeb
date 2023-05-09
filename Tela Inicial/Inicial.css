@@ -54,6 +54,20 @@ h2{
     line-height: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#marcas{
+    line-height: 60px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.coluna{
+    float: left;
+    width: 20%;
+}
+.row ::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 span{
     color: rgb(255, 120, 0)
