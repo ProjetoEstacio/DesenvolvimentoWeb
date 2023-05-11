@@ -1,0 +1,84 @@
+body {
+    background-image: url(../Images/background-carros.png); 
+    background-position: center;
+    background-size: cover;
+}
+
+.marcas {
+    display: grid;
+    padding: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.nissan {
+    /* background-color: rgb(175, 31, 31); */
+    display: grid;
+    padding: 50px;
+    text-align: center;
+}
+
+.nissan img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    border: 5px rgb(255, 120, 0, 0) solid;
+}
+
+.nissan img:hover {
+    border: 5px rgb(255, 120, 0) solid;
+}
+
+.mercedes {
+    /* background-color: rgb(49, 122, 170); */
+    display: grid;
+    padding: 50px;
+    text-align: center;
+}
+
+.mercedes img {
+    height: 90%;
+    width: 90%;
+    border-radius: 20%;
+    border: 5px rgb(255, 120, 0, 0) solid;
+}
+
+.mercedes img:hover {
+    border: 5px rgb(255, 120, 0) solid;
+}
+
+.bmw {
+    /* background-color: green; */
+    display: grid;
+    padding: 50px;
+    text-align: center;
+}
+
+.bmw img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    border: 5px rgb(255, 120, 0, 0) solid;
+}
+
+.bmw img:hover {
+    border: 5px rgb(255, 120, 0) solid;
+}
+
+.mitsubishi {
+    /* background-color: yellow; */
+    display: grid;
+    padding: 50px;
+    text-align: center;
+}
+
+.mitsubishi img {
+    height: 90%;
+    width: 90%;
+    border-radius: 20%;
+    border: 5px rgb(255, 120, 0, 0) solid;
+}
+
+.mitsubishi img:hover {
+    border: 5px rgb(255, 120, 0) solid;
+}
