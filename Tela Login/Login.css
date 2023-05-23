@@ -63,7 +63,7 @@ body * {
     margin: 0;
 }
 
-span{
+h1 > span {
     color: rgb(255, 255, 255)
 }
 
