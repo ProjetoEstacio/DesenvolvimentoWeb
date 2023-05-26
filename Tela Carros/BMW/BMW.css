@@ -165,9 +165,13 @@ a:hover{
     transform: scale(1.1);
     transition: all 0.5s;
 }
-
-@media only screen and (max-width: 950px){
-    .title{
-        width: 85%;
+@media screen and (max-width: 740px) {
+    .container {
+     width: 90%;
+     height: auto;
+    }
+    .container {
+     display: flex;
+     flex-direction: column;
     }
 }
