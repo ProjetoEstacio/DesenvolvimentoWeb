@@ -165,7 +165,7 @@ a:hover{
     transform: scale(1.1);
     transition: all 0.5s;
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 741px) {
     .container {
      width: 90%;
      height: auto;
